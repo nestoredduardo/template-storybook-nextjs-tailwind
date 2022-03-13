@@ -1,27 +1,48 @@
-# Next.js + Tailwind CSS Example
+<h1 align="center" id="title">Configuración base de Storybook con Next.js y TailwindCSS</h1>
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.0)](https://tailwindcss.com/blog/tailwindcss-v3) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+<p align="center"><img src="https://socialify.git.ci/nestoredduardo/template-storybook-nextjs-tailwind/image?language=1&amp;logo=https%3A%2F%2Fraw.githubusercontent.com%2Fnestoredduardo%2Fportfolio-v2%2Fmain%2Fpublic%2Flogo.svg&amp;name=1&amp;owner=1&amp;theme=Dark" alt="project-image"></p>
 
-## Preview
+<h2>Project Screenshots:</h2>
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+<img src="https://raw.githubusercontent.com/nestoredduardo/portfolio-v2/main/public/portfolio/templateStorybook.jpg" alt="project-screenshot" width="1000" height="500/">
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+  
+  
+<h2>🧐 Features</h2>
 
-## Deploy your own
+Here're some of the project's best features:
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+*   Configuración de PostCSS para que TailwindCSS funcione en Storybook
+*   Instalación de Storybook con webpack5
+*   Configuración de estáticos public/ de Next.js en Storybook
+*   Viene con el paquete [storybook-addon-next](https://github.com/RyanClementsHax/storybook-addon-next#documentation) para que Storybook trabaje bien con next/image, next/link, etc
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+<h2>🛠️ Installation Steps:</h2>
 
-## How to use
+<p>1. Clona el repositorio</p>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+```
+ git clone git@github.com:nestoredduardo/template-storybook-nextjs-tailwind.git
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+<p>2. Navega al directorio del proyecto</p>
+
+```
+cd template-storybook-nextjs-tailwind/
+```
+
+<p>3. Instala los paquetes</p>
+
+```
+yarn
+```
+
+<p>4. Mira Storybook en acción</p>
+
+```
+yarn storybook
+```
+
+<h2>🛡️ License:</h2>
+
+This project is licensed under the MIT
