@@ -4,7 +4,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://raw.githubusercontent.com/nestoredduardo/portfolio-v2/main/public/portfolio/templateStorybook.jpg" alt="project-screenshot" width="1000" height="500/">
+<img src="https://raw.githubusercontent.com/nestoredduardo/portfolio-v2/main/public/portfolio/templateStorybook.jpg" alt="project-screenshot" width="600" height="300/">
 
   
   
